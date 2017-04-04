@@ -4,4 +4,7 @@
 [<EntryPoint>]
 let main argv = 
     printfn "%A" argv
+let Add a b = a + b
+let c = Add 10 20
+
     0 // return an integer exit code
